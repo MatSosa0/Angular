@@ -1,0 +1,10 @@
+.tarta {
+width: 200px;
+height: 200px;
+background: conic-gradient(
+#ff5733 0% 33%, /* Color para la primera porción */
+#33ff57 33% 66%, /* Color para la segunda porción */
+#5733ff 66% 100% /* Color para la tercera porción */
+);
+border-radius: 50%;
+}

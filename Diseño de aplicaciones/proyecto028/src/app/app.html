@@ -1,0 +1,9 @@
+@for (valor of numeros; track valor) {
+  @defer (on viewport) {
+    <app-tablamultiplicacion [tabla]="valor" />
+  }
+  @placeholder {
+    <p>Esperando la tabla del {{ valor }}</p>
+  }
+}
+<router-outlet />
